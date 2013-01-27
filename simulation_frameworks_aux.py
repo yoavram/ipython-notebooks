@@ -13,7 +13,7 @@ def plot_summary(num_balls, means, stds, game_name):
     ylabel("# draws")
     title(game_name + " standard deviation")
 
-def plot_histograms(results, n_bins = 25, legend_title= "# balls each"):
+def plot_histograms(results, num_balls, n_bins = 25, legend_title= "# balls each"):
     figure(figsize=(18,5))
     subplot(131)
     for i,dataset in enumerate(results[0:3,]):
