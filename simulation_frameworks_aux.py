@@ -32,3 +32,11 @@ def plot_histograms(results, num_balls, n_bins = 25, legend_title= "# balls each
         hist(dataset, bins=n_bins, label=str(num_balls[i+6]))
     legend(title=legend_title)
     xlabel("# draws")
+
+def plot_mutation_load(time_series, mu, s, plot_title):
+    figure(figsize=(10,6))
+    plot(range(len(time_series)), time_series, 'k')
+    axhline(y=mu/s)
+    xlabel("generations")
+    ylabel("mutation load")
+    title(plot_title)
