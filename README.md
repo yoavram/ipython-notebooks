@@ -1,6 +1,6 @@
 These are my [IPython notebooks](http://ipython.org/ipython-doc/dev/interactive/htmlnotebook.html).
 
-You can [browse them with *nbviewer*](http://nbviewer-dev.herokuapp.com/yoavram/ipython-notebooks/).
+You can [browse them with *nbviewer*](http://nbviewer.ipython.org/github/yoavram/ipython-notebooks/tree/master/).
 
 You can fork or clone them (`git clone https://github.com/yoavram/ipython-notebooks.git`).
 
